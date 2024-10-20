@@ -1,8 +1,8 @@
 #!@PYTHON@
 
-# lwutils.in
+# liteutils.in
 #
-# Copyright 2024 LW Tech Corporation
+# Copyright 2024 TXG0Fk3
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -31,16 +31,16 @@ localedir = '@localedir@'
 
 sys.path.insert(1, pkgdatadir)
 signal.signal(signal.SIGINT, signal.SIG_DFL)
-locale.bindtextdomain('lwutils', localedir)
-locale.textdomain('lwutils')
-gettext.install('lwutils', localedir)
+locale.bindtextdomain('liteutils', localedir)
+locale.textdomain('liteutils')
+gettext.install('liteutils', localedir)
 
 if __name__ == '__main__':
     import gi
 
     from gi.repository import Gio
-    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'lwutils.gresource'))
+    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'liteutils.gresource'))
     resource._register()
 
-    from lwutils import Application
+    from liteutils import Application
     sys.exit(Application.main(VERSION))

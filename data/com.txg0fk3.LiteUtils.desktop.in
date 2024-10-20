@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=LwUtils
-Exec=lwutils
-Icon=corp.lwtech.LwUtils
+Name=LiteUtils
+Exec=liteutils
+Icon=com.txg0fk3.LiteUtils
 Terminal=false
 Type=Application
 Categories=GTK;

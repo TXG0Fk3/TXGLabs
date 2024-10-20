@@ -5,8 +5,8 @@ conf.set('localedir', localedir)
 conf.set('pkgdatadir', pkgdatadir)
 
 configure_file(
-  input: 'lwutils.in',
-  output: 'lwutils',
+  input: 'liteutils.in',
+  output: 'liteutils',
   configuration: conf,
   install: true,
   install_dir: bindir,

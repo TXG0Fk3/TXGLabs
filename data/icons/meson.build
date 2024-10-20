@@ -1,4 +1,4 @@
-application_id = 'corp.lwtech.LwUtils'
+application_id = 'com.txg0fk3.LiteUtils'
 
 scalable_dir = 'hicolor' / 'scalable' / 'apps'
 install_data(

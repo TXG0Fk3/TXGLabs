@@ -1,4 +1,4 @@
-data/corp.lwtech.LwUtils.desktop.in
+data/com.txg0fk3.LiteUtils.desktop.in
 data/ui/main_window.blp
 data/ui/shortcuts_overview.blp
-LwUtils/Application.py
+LiteUtils/Application.py

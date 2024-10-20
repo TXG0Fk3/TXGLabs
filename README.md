@@ -1,4 +1,4 @@
-# LwUtils
+# LiteUtils
 
 ### Descrição
 
@@ -11,8 +11,8 @@ Ainda não temos uma Descrição :D
     - meson
     - ninja
     - blueprint-compiler
- - Clone o repositório: `git clone https://github.com/LW-Tech-Corporation/LwUtils.git`
- - Acesse o diretório root do projeto: `cd LwUtils`
+ - Clone o repositório: `git clone https://github.com/TXG0Fk3/LiteUtils`
+ - Acesse o diretório root do projeto: `cd LiteUtils`
  - Organize com: `meson setup build --prefix=/usr`
  - Compile com: `meson compile -C build`
  - Instale com: `meson install -C build`
