@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the LwUtils package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LwUtils 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-09 00:53-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../LwUtils/Application.py:98
+msgid "Supporters"
+msgstr ""
+
+#: ../data/corp.lwtech.LwUtils.desktop.in:3
+msgid "lwutils"
+msgstr ""
+
+#: ../data/ui/main_window.blp:14
+msgid "Menu"
+msgstr ""
+
+#: ../data/ui/main_window.blp:31
+msgid "_Preferences"
+msgstr ""
+
+#: ../data/ui/main_window.blp:35
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: ../data/ui/main_window.blp:39
+msgid "_About LwUtils"
+msgstr ""
+
+#: ../data/ui/shortcuts_overview.blp:10
+msgid "Application"
+msgstr ""
+
+#: ../data/ui/shortcuts_overview.blp:13
+msgid "Show Shortcuts"
+msgstr ""
+
+#: ../data/ui/shortcuts_overview.blp:18
+msgid "Preferences"
+msgstr ""

@@ -1,0 +1,4 @@
+data/corp.lwtech.LwUtils.desktop.in
+data/ui/main_window.blp
+data/ui/shortcuts_overview.blp
+LwUtils/Application.py

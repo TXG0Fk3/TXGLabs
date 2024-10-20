@@ -1,0 +1,23 @@
+using Gtk 4.0;
+
+ShortcutsWindow shortcuts_overview {
+    modal: true;
+    ShortcutsSection {
+        section-name: "shortcuts";
+        max-height: 10;
+
+        ShortcutsGroup {
+            title: _("Application");
+
+            ShortcutsShortcut {
+                title: _("Show Shortcuts");
+                accelerator: "<primary>question";
+            }
+
+            ShortcutsShortcut {
+                title: _("Preferences");
+                accelerator: "<primary>comma";
+            }
+        }
+    }
+}

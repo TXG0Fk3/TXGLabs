@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/corp/lwtech/LwUtils">
+    <file preprocess="xml-stripblanks">ui/main_window.ui</file>
+    <file preprocess="xml-stripblanks">ui/shortcuts_overview.ui</file>
+    <file preprocess="xml-stripblanks">ui/about_window.ui</file>
+  </gresource>
+</gresources>

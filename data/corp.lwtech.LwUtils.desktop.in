@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LwUtils
+Exec=lwutils
+Icon=corp.lwtech.LwUtils
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
