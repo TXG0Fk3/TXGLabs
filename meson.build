@@ -1,4 +1,4 @@
-project('liteutils',
+project('txglabs',
           version: '0.1.0',
     meson_version: '>= 0.62.0',
   default_options: [ 'warning_level=2', 'werror=false', ],
@@ -23,7 +23,7 @@ pythondir = py_installation.get_install_dir()
 localedir = join_paths(prefix, get_option('localedir'))
 
 subdir('data')
-subdir('LiteUtils')
+subdir('TXGLabs')
 subdir('po')
 subdir('bin')
 

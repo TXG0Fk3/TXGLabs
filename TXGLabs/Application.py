@@ -1,6 +1,6 @@
 # Application.py
 #
-# Copyright 2024 TXG0Fk3
+# Copyright 2025 TXG0Fk3
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -49,17 +49,17 @@ class Application(Adw.Application):
     application_id = None
 
     def __init__(self):
-        super().__init__(application_id='com.txg0kf3.LiteUtils',
+        super().__init__(application_id='com.txg0kf3.TXGLabs',
                          flags=Gio.ApplicationFlags.DEFAULT_FLAGS)
 
     def do_activate(self):
         win = self.props.active_window
         if not win:
-            win = ApplicationWindow(application=self, title='LiteUtils', icon_name=self.application_id)
+            win = ApplicationWindow(application=self, title='TXGLabs', icon_name=self.application_id)
         win.present()
 
 
-@Gtk.Template(resource_path='/com/txg0fk3/LiteUtils/ui/main_window.ui')
+@Gtk.Template(resource_path='/com/txg0fk3/TXGLabs/ui/main_window.ui')
 class ApplicationWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'ApplicationWindow'
 
@@ -88,7 +88,7 @@ class ApplicationWindow(Adw.ApplicationWindow):
         self.application.add_action(quit_action)
 
     def on_about_menu_clicked(self, _action, _param):
-        builder = Gtk.Builder.new_from_resource('/com/txg0fk3/LiteUtils/ui/about_window.ui')
+        builder = Gtk.Builder.new_from_resource('/com/txg0fk3/TXGLabs/ui/about_window.ui')
         window = builder.get_object('about_window')
 
         window.set_artists(CREDITS['artists'])
@@ -109,7 +109,7 @@ class ApplicationWindow(Adw.ApplicationWindow):
 
     def on_shortcuts_menu_clicked(self, _action, _param):
         builder = Gtk.Builder()
-        builder.add_from_resource('/com/txg0fk3/LiteUtils/ui/shortcuts_overview.ui')
+        builder.add_from_resource('/com/txg0fk3/TXGLabs/ui/shortcuts_overview.ui')
 
         shortcuts_overview = builder.get_object('shortcuts_overview')
         shortcuts_overview.set_modal(True)

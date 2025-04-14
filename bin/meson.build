@@ -5,8 +5,8 @@ conf.set('localedir', localedir)
 conf.set('pkgdatadir', pkgdatadir)
 
 configure_file(
-  input: 'liteutils.in',
-  output: 'liteutils',
+  input: 'txglabs.in',
+  output: 'txglabs',
   configuration: conf,
   install: true,
   install_dir: bindir,

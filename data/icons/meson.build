@@ -1,4 +1,4 @@
-application_id = 'com.txg0fk3.LiteUtils'
+application_id = 'com.txg0fk3.TXGLabs'
 
 scalable_dir = 'hicolor' / 'scalable' / 'apps'
 install_data(

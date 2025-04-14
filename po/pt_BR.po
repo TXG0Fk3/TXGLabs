@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: LiteUtils 0.1.0\n"
+"Project-Id-Version: TXGLabs 0.1.0\n"
 "POT-Creation-Date: 2024-09-10 12:00+0000\n"
 "PO-Revision-Date: 2024-09-10 12:00+0000\n"
 "Last-Translator: Leoverton Xavier <leovertonx12@outlook.com>\n"
@@ -9,13 +9,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../LiteUtils/Application.py:98
+#: ../TXGLabs/Application.py:98
 msgid "Supporters"
 msgstr "Apoiadores"
 
-#: ../data/com.txg0fk3.LiteUtils.desktop.in:3
-msgid "LiteUtils"
-msgstr "LiteUtils"
+#: ../data/com.txg0fk3.TXGLabs.desktop.in:3
+msgid "TXGLabs"
+msgstr "TXGLabs"
 
 #: ../data/ui/main_window.blp:14
 msgid "Menu"
@@ -30,8 +30,8 @@ msgid "_Keyboard Shortcuts"
 msgstr "_Atalhos do Teclado"
 
 #: ../data/ui/main_window.blp:39
-msgid "_About LiteUtils"
-msgstr "Sobre LiteUtils"
+msgid "_About TXGLabs"
+msgstr "Sobre TXGLabs"
 
 #: ../data/ui/shortcuts_overview.blp:10
 msgid "Application"

@@ -1,4 +1,4 @@
-data/com.txg0fk3.LiteUtils.desktop.in
+data/com.txg0fk3.TXGLabs.desktop.in
 data/ui/main_window.blp
 data/ui/shortcuts_overview.blp
-LiteUtils/Application.py
+TXGLabs/Application.py

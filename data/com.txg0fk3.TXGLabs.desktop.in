@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=LiteUtils
-Exec=liteutils
-Icon=com.txg0fk3.LiteUtils
+Name=TXGLabs
+Exec=txglabs
+Icon=com.txg0fk3.TXGLabs
 Terminal=false
 Type=Application
 Categories=GTK;

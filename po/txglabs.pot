@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the LiteUtils package.
+# This file is distributed under the same license as the TXGLabs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LiteUtils 0.1.0\n"
+"Project-Id-Version: TXGLabs 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 00:53-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../LiteUtils/Application.py:98
+#: ../TXGLabs/Application.py:98
 msgid "Supporters"
 msgstr ""
 
-#: ../data/com.tx0gkf3.LiteUtils.desktop.in:3
-msgid "liteutils"
+#: ../data/com.tx0gkf3.TXGLabs.desktop.in:3
+msgid "txglabs"
 msgstr ""
 
 #: ../data/ui/main_window.blp:14
@@ -38,7 +38,7 @@ msgid "_Keyboard Shortcuts"
 msgstr ""
 
 #: ../data/ui/main_window.blp:39
-msgid "_About LiteUtils"
+msgid "_About TXGLabs"
 msgstr ""
 
 #: ../data/ui/shortcuts_overview.blp:10

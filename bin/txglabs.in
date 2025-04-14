@@ -1,8 +1,8 @@
 #!@PYTHON@
 
-# liteutils.in
+# txglabs.in
 #
-# Copyright 2024 TXG0Fk3
+# Copyright 2025 TXG0Fk3
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -31,16 +31,16 @@ localedir = '@localedir@'
 
 sys.path.insert(1, pkgdatadir)
 signal.signal(signal.SIGINT, signal.SIG_DFL)
-locale.bindtextdomain('liteutils', localedir)
-locale.textdomain('liteutils')
-gettext.install('liteutils', localedir)
+locale.bindtextdomain('txglabs', localedir)
+locale.textdomain('txglabs')
+gettext.install('txglabs', localedir)
 
 if __name__ == '__main__':
     import gi
 
     from gi.repository import Gio
-    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'liteutils.gresource'))
+    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'txglabs.gresource'))
     resource._register()
 
-    from liteutils import Application
+    from txglabs import Application
     sys.exit(Application.main(VERSION))

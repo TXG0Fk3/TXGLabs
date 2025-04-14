@@ -8,8 +8,8 @@ blueprints = custom_target('blueprints',
   command: [find_program('blueprint-compiler'), 'batch-compile', '@OUTPUT@', '@CURRENT_SOURCE_DIR@', '@INPUT@'],
 )
 
-gnome.compile_resources('liteutils',
-  'liteutils.gresource.xml',
+gnome.compile_resources('txglabs',
+  'txglabs.gresource.xml',
   gresource_bundle: true,
   dependencies: blueprints,
   install: true,
@@ -17,8 +17,8 @@ gnome.compile_resources('liteutils',
 )
 
 desktop_file = i18n.merge_file(
-        input: 'com.txg0fk3.LiteUtils.desktop.in',
-       output: 'com.txg0fk3.LiteUtils.desktop',
+        input: 'com.txg0fk3.TXGLabs.desktop.in',
+       output: 'com.txg0fk3.TXGLabs.desktop',
          type: 'desktop',
        po_dir: '../po',
       install: true,
@@ -31,8 +31,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-        input: 'com.txg0fk3.LiteUtils.metainfo.xml.in',
-       output: 'com.txg0fk3.LiteUtils.metainfo.xml',
+        input: 'com.txg0fk3.TXGLabs.metainfo.xml.in',
+       output: 'com.txg0fk3.TXGLabs.metainfo.xml',
        po_dir: '../po',
       install: true,
   install_dir: get_option('datadir') / 'metainfo'
@@ -42,7 +42,7 @@ appstreamcli = find_program('appstreamcli', required: false, disabler: true)
 test('Validate appstream file', appstreamcli,
      args: ['validate', '--no-net', '--explain', appstream_file])
 
-install_data('com.txg0fk3.LiteUtils.gschema.xml',
+install_data('com.txg0fk3.TXGLabs.gschema.xml',
   install_dir: get_option('datadir') / 'glib-2.0' / 'schemas'
 )
 
